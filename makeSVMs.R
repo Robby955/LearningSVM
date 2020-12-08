@@ -20,7 +20,7 @@ plot(toyData$x1,toyData$x2,col=colors,xlab="x1",ylab="x2",pch=16)
 abline(int,slope)
 
 # Third plot
-s=sqrt((toyData$x1-toyData$x2)^2)/2
+s=-sqrt((toyData$x1-toyData$x2)^2)/2
 plot(s,col=colors,pch=16)
 
 # Load the Kernlab Library
